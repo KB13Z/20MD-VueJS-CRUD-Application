@@ -175,6 +175,8 @@
         gap: 2rem;
         justify-content: center;
         padding: 2rem;
+        margin-bottom: 6rem;
+        margin-top: 8rem;
     }
 
     .form-title {

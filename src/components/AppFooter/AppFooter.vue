@@ -15,10 +15,13 @@
         align-items: center;
         background-color: purple;
         color: lightgreen;
-        padding: 2%;
+        padding: 1%;
         width: 100%;
         bottom: 0;
+        right: 0;
+        left: 0;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        position: fixed;
     }
 
     .footer-trademark {

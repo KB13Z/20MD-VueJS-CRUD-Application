@@ -29,18 +29,18 @@
       "taste": "Sweet"
     },
     {
-      "id": "bf59",
-      "image": "/form-images/kiwi.jpg",
-      "name": "Kiwi",
-      "color": "Green",
-      "taste": "Weird"
-    },
-    {
       "id": "33ac",
       "image": "/form-images/orange.jpg",
       "name": "Orange",
       "color": "Orange",
       "taste": "Sour"
+    },
+    {
+      "id": "9321",
+      "image": "/form-images/kiwi.jpg",
+      "name": "Kiwi",
+      "color": "Green",
+      "taste": "Weird"
     }
   ]
 }

@@ -28,7 +28,8 @@
         align-items: center;
         padding: 2rem;
         gap: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
+        margin-top: 7rem;
     }
 
     .about-title {
@@ -50,12 +51,14 @@
 
     .image-wrapper {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 2rem;
         padding-top: 2rem;
     }
 
     .about-image {
-        width: 20vw;
+        width: 300px;
         border-radius: 20px;
         border: 1px solid purple;
     }

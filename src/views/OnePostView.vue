@@ -279,12 +279,13 @@
         padding: 2rem;
         display: flex;
         justify-content: center;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
     }
 
     .delete-status {
         font-weight: bold;
         font-size: 20px;
-        margin-bottom: 22.6rem;
     }
 
     .post-wrapper {

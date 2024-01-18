@@ -59,24 +59,30 @@
 </script>
 
 <template>
-  <div class="posts-container">
-    <div class="post" v-for="fruit in paginatedFruits" :key="fruit.id">
-      <img :src="fruit.image" alt="Fruit image" class="fruit-image" />
-      <h3 class="fruit-name">{{ fruit.name }}</h3>
-      <div class="link-wrapper">
-        <router-link :to="{ name: 'fruit', params: { id: fruit.id } }" class="post-link">Learn more →</router-link>
+  <div class="homeview">
+    <div class="posts-container">
+      <div class="post" v-for="fruit in paginatedFruits" :key="fruit.id">
+        <img :src="fruit.image" alt="Fruit image" class="fruit-image" />
+        <h3 class="fruit-name">{{ fruit.name }}</h3>
+        <div class="link-wrapper">
+          <router-link :to="{ name: 'fruit', params: { id: fruit.id } }" class="post-link">Learn more →</router-link>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="pagination" v-if="totalPages > 1">
-    <button v-if="currentPage > 1" type="button" class="pagination-button" @click="prevPage">Previous</button>
-    <span>Page {{ currentPage }} of {{ totalPages }}</span>
-    <button v-if="currentPage < totalPages" type="button" class="pagination-button" @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+    <div class="pagination" v-if="totalPages > 1">
+      <button v-if="currentPage > 1" type="button" class="pagination-button" @click="prevPage">Previous</button>
+      <span class="pagination-text">Page {{ currentPage }} of {{ totalPages }}</span>
+      <button v-if="currentPage < totalPages" type="button" class="pagination-button" @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+    </div>
   </div>
   <router-view></router-view>
 </template>
 
 <style scoped>
+  .homeview {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
   .posts-container {
     width: 100%;
     padding: 3rem;
@@ -85,8 +91,6 @@
     flex-wrap: wrap;
     gap: 2rem;
   }
-
-  
 
   .post {
     padding: 2rem;
@@ -123,10 +127,9 @@
   }
 
   .pagination {
-    display: flex;
-    gap: 1rem;
+    width: 100%;
     padding: 1rem;
-    align-items: center;
+    text-align: center;
   }
 
   .pagination-button {
@@ -143,5 +146,10 @@
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.4s;
+  }
+
+  .pagination-text {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 </style>

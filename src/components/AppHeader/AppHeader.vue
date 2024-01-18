@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { RouterLink, RouterView } from 'vue-router';
-    const title = 'Fruitsy World';
+    const title = '🍏 Fruitsy World 🍏';
 </script>
 
 <template>
@@ -29,6 +29,10 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         padding: 1rem;
         color: lightgreen;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
     }
 
     .header-title {

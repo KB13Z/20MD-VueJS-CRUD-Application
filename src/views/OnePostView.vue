@@ -284,6 +284,7 @@
     .delete-status {
         font-weight: bold;
         font-size: 20px;
+        margin-bottom: 22.6rem;
     }
 
     .post-wrapper {

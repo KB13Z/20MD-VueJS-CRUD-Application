@@ -19,8 +19,6 @@
         width: 100%;
         bottom: 0;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        flex: 1;
     }
 
     .footer-trademark {

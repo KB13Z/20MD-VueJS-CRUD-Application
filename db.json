@@ -1,0 +1,46 @@
+{
+  "fruits": [
+    {
+      "id": "57c3",
+      "image": "/public/form-images/pear.jpg",
+      "name": "Pear",
+      "color": "Green",
+      "taste": "Sweet"
+    },
+    {
+      "id": "1f7a",
+      "image": "/public/form-images/pineapple.jpg",
+      "name": "Pineapple",
+      "color": "Yellow",
+      "taste": "Sweet"
+    },
+    {
+      "image": "/form-images/orange.jpg",
+      "name": "Orange",
+      "color": "Orange",
+      "taste": "Sour",
+      "id": "a722"
+    },
+    {
+      "id": "a061",
+      "image": "/form-images/banana.jpg",
+      "name": "Banana",
+      "color": "Yellow",
+      "taste": "Sweet"
+    },
+    {
+      "id": "312a",
+      "image": "/form-images/apple.jpg",
+      "name": "Apple",
+      "color": "Red",
+      "taste": "Sweet"
+    },
+    {
+      "id": "d6db",
+      "image": "/form-images/kiwi.jpg",
+      "name": "Kiwi",
+      "color": "Green",
+      "taste": "Weird"
+    }
+  ]
+}
